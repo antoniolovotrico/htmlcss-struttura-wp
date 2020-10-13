@@ -34,10 +34,11 @@ header {
 
 h1 {
   border: 5px solid white;
-  font-size: 35px;
-  width: 250px;
+  font-size: 65px;
+  font-weight: normal;
+  width: 35%;
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
