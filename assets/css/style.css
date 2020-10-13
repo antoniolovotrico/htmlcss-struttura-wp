@@ -9,7 +9,7 @@ body {
   background-image: url(../img/natural-default-pattern.png);
   font-family: verdana;
 }
-section {
+.container {
   margin: auto;
   width:70%;
 }
@@ -110,21 +110,50 @@ main {
 
 footer {
   width: 100%;
-  height: 25vh;
-  background-color: yellow;
+  height: 20vh;
+  background-color: white;
+  text-align: center;
 }
 
 p {
   line-height: 30px;
-  padding: 10px;
+  padding: 18px;
 }
 
 main h2 {
-  padding: 10px;
+  padding: 18px;
   color: grey;
 }
 
 aside h2 {
-  padding: 10px;
-  color: darkgrey;
+  padding: 18px;
+  color: grey;
+}
+
+#titol_feed {
+  padding: 1px;
+  display: inline-block;
+}
+
+a .fas {
+  padding: 5px;
+  color: orange;
+  float: left;
+  font-size: 30px;
+}
+
+h4 {
+  font-family: arial;
+  font-style: italic;
+  color: lightgrey;
+  margin-top: 5px;
+  font-size: 15px;
+  border-bottom: 1px solid grey;
+}
+
+footer .fab {
+  font-size: 40px;
+  color: grey;
+  width: 30%;
+  padding-top: 20px;
 }

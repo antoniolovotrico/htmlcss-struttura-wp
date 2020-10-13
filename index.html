@@ -3,14 +3,21 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
     <title>htmlcss-struttura-wp</title>
   </head>
   <body>
-    <section>
+    <div class="container">
+      <!-- container principale -->
+
+      <!-- header -->
       <header>
         <h1>Natural</h1>
         <h3>Another Beautiful Organic theme</h3>
       </header>
+      <!-- /header -->
+
+      <!-- navigation menu -->
       <nav class="float-left">
         <ul>
           <li><a href="#">Home</a></li>
@@ -23,9 +30,12 @@
         </ul>
 
       </nav>
+      <!-- /navigation menu -->
 
+      <!-- colonna sinistra sidebar -->
       <aside class="float-left box">
-        <h2>Organic Themes</h2>
+
+        <h2 id="titol_feed"><a href="#"><i class="fas fa-rss-square"></i></a>Organic Themes</h2>
         <ul>
           <li><a href="#">How To Pick A WordPress theme for 2019</a></li>
           <li><a href="#">The Updated Gutemberg Portfolio Theme</a></li>
@@ -35,11 +45,16 @@
         </ul>
 
       </aside>
+      <!-- /colonna sinistra sidebar -->
+
+      <!-- colonna centrale main -->
       <main class="float-left box">
         <h2>THREE COLUMN</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
       </main>
+      <!-- /colonna centrale main -->
 
+      <!-- colonna sinistra -->
       <aside class="float-right">
         <div class="box">
           <h2>Text Widget</h2>
@@ -54,7 +69,19 @@
           <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         </div>
       </aside>
-      <footer class="float-left"></footer>
-    </section>
+      <!-- /colonna sinistra -->
+
+      <!-- footer -->
+      <footer class="float-left box">
+        <h4>Pagina realizzata da Antonio Lo Votrico</h4>
+        <a href="#"><i class="fab fa-facebook-square"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-github"></i></a>
+      </footer>
+      <!-- /footer -->
+
+    </div>
+    <!-- /container principale -->
+
   </body>
 </html>
