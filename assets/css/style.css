@@ -124,6 +124,7 @@ p {
 main h2 {
   padding: 18px;
   color: grey;
+  text-shadow: 2px 2px 2px  black;
 }
 
 aside h2 {
